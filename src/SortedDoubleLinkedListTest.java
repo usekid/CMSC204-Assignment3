@@ -1,4 +1,3 @@
-//package _solution;
 
 import static org.junit.Assert.*;
 
@@ -88,6 +87,7 @@ public class SortedDoubleLinkedListTest {
 		assertEquals(c, iterator.next());
 		assertEquals(b, iterator.next());
 		assertEquals(true, iterator.hasNext());
+
 	}
 
 	@Test
